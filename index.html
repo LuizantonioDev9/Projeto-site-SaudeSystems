@@ -19,18 +19,35 @@
 
     <!-- navbar -->
 
-    <nav class="navbar  navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./assets/saudesystems.png" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/saudesystems.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Saúde Systems
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="nav  nav-underline">
+
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-underline text-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nossos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contato</a>
+              <a class="nav-link" href="#">Contato</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Quem somos</a>
@@ -41,10 +58,16 @@
             <li class="nav-item">
               <a class="nav-link" aria-disabled="true">Blog</a>
             </li>
+
           </ul>
         </div>
       </div>
     </nav>
+
+
+
+
+
 
     <!-- navbar -->
 
@@ -65,30 +88,30 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="w-100 img-fluid d-xl-block" src="./assets/cientista-feminina-no-laboratorio-com-o-bloco-de-notas.jpg" alt="">
+          <img class="w-100 img-fluid d-xl-block carrousel-image" src="./assets/mulher com notebook.png" alt="mulher branca na frente com computador">
           <div class="carousel-caption d-none d-md-block">
-            <h2 class="animate__animated animate__bounceInDown text-primary">Soluções confiaveis</h2>
-            <p class="animate__animated animate__bounceInLeft">Some representative placeholder content for the first slide.</p>
+            <h2 class="animate__animated animate__bounceInDown">Soluções confiaveis</h2>
+            <p class="animate__animated animate__bounceInLeft">Some representative placeholder content for the first
+              slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="w-100 img-fluid" src="./assets/medico-quimico-preocupado-trabalhando-no-pc-examinando-a-evolucao-da-vacina-em-um-laboratorio-cientifico-moderno-equipado.jpg" alt="">
+          <img class="w-100 img-fluid carrousel-image"
+            src="./assets/medico-quimico-preocupado-trabalhando-no-pc-examinando-a-evolucao-da-vacina-em-um-laboratorio-cientifico-moderno-equipado.jpg"
+            alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__bounceInDown text-primary">Segurança</h1>
-            <p class="animate__animated animate__bounceInLeft ">Some representative placeholder content for the second slide.</p>
+            <h1 class="animate__animated animate__bounceInDown">Segurança</h1>
+            <p class="animate__animated animate__bounceInLeft ">Some representative placeholder content for the second
+              slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
-              slide</text>
-          </svg>
+          <img class="w-100 img-fluid carrousel-image" src="./assets/foto lab 2.jpeg"
+            alt="mulher branca mexendo em ferramentas biomedicina">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="animate__animated animate__bounceInDown">Third slide label</h5>
-            <p class="animate__animated animate__bounceInLeft">Some representative placeholder content for the third slide.</p>
+            <p class="animate__animated animate__bounceInLeft">Some representative placeholder content for the third
+              slide.</p>
           </div>
         </div>
       </div>
@@ -116,6 +139,21 @@
 
     </section> -->
 
+    <!-- Sobre nós -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- cards -->
 
     <h2 class="text-center mt-4">Nossos Modulos</h2>
@@ -123,16 +161,19 @@
 
       <div class="col-12 col-md-4 col-xxl-4">
         <div class="card border-0 btn " style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-1">
-          <img class="animate__animated animate__zoomIn imagem animate__repeat-1 animate__delay-2s" src="./assets/saudeatend.png" alt="logo da empresa saudesystems">
+          <img class="animate__animated animate__zoomIn imagem animate__repeat-1 animate__delay-2s"
+            src="./assets/saudeatend.png" alt="logo da empresa saudesystems">
           <div class="card-body">
-            <h5 class="card-title text-center animate__animated animate__lightSpeedInRight animate__delay-2s">Saude Atendimento</h5>
+            <h5 class="card-title text-center animate__animated animate__lightSpeedInRight animate__delay-2s">Saude
+              Atendimento</h5>
           </div>
         </div>
       </div>
 
       <div class="col-12 col-md-4 col-xxl-4">
         <div class="card border-0 btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-2">
-          <img class="animate__animated animate__zoomInLeft imagem animate__repeat-1 animate__delay-2s" src="./assets/saudesystems.png" alt="logo da empresa saudesystems">
+          <img class="animate__animated animate__zoomInLeft imagem animate__repeat-1 animate__delay-2s"
+            src="./assets/saudesystems.png" alt="logo da empresa saudesystems">
           <div class="card-body">
             <h5 class="card-title animate__animated animate__lightSpeedInRight animate__delay-2s">Saúde Cadastro</h5>
           </div>
@@ -141,9 +182,11 @@
 
       <div class="col-12 col-md-4 col-xxl-4">
         <div class="card border-0 btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-3">
-          <img class="animate__animated animate__zoomIn imagem animate__repeat-1 animate__delay-2s" src="./assets/saudeinterf.png" alt=",ogo da empresa saudesystems">
+          <img class="animate__animated animate__zoomIn imagem animate__repeat-1 animate__delay-2s"
+            src="./assets/saudeinterf.png" alt=",ogo da empresa saudesystems">
           <div class="card-body">
-            <h5 class="card-title animate__animated animate__lightSpeedInRight animate__delay-2s">Saúde Interfaciamento</h5>
+            <h5 class="card-title animate__animated animate__lightSpeedInRight animate__delay-2s">Saúde Interfaciamento
+            </h5>
           </div>
         </div>
       </div>
@@ -205,6 +248,8 @@
 
     </section>
 
+
+
   </main>
 
   <!-- modal 1 -->
@@ -229,10 +274,10 @@
     </div>
   </div>
 
-  <!-- Button trigger modal -->
+  <!-- Button trigger modal
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Launch demo modal
-  </button>
+  </button> -->
 
   <!-- Modal -->
   <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -263,7 +308,15 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+              incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+              vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
+              dolorem eum fugiat quo voluptas nulla pariatur?"</p>
           </div>
         </div>
         <div class="modal-footer">
@@ -280,6 +333,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <script>
+      const navEl = document.querySelector('.navbar');
+
+      window.addEventListener('scroll', () => {
+        if(window.scrollY >= 56) {
+          navEl.classList.add('navbar-scrolled');
+        } else if(window.screenY < 56) {
+          navEl.classList.remove('navbar-scrolled');
+        }
+      })
+    </script>
 
 </body>
 

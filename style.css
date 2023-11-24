@@ -24,3 +24,23 @@
   --bs-bg-opacity: .2 !important;
 }
 
+
+ .navbar-scrolled {
+  background-color: #2E8B57;
+  box-shadow: 0 3px 10px rgb(0 ,0 ,0 ,0.15);
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.carrousel-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+
+
+
